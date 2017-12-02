@@ -1,0 +1,68 @@
+.wrapper {
+  display: block;
+  margin: 10% 10% 0 10%;
+  height: 70%;
+}
+
+.thumbnail {
+  width: 30%;
+  height: 40%;
+  margin: 10px 10px;
+  background-color: #000000;
+  background-size: cover;
+  float: left;
+  position: relative;
+}
+
+.landscape {
+  background-image: url("../images/thumbnails/stars-landscape.jpg");
+}
+
+.website {
+  background-image: url("../images/thumbnails/website.jpeg");
+}
+
+.overlayTitle {
+    font-size: 25px;
+}
+
+.overlayCaption {
+  font-size: 20px;
+}
+
+.overlay {
+  background-color: rgba(66,66,66,0.6);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 4px solid rgba(56,56,56,0.6);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  -ms-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.thumbnail:hover {
+  .overlay {
+    opacity: 1;
+  }
+    p {
+      opacity: 1;
+    }
+    p.title{
+      top: 70px;
+    }
+    p.caption{
+      bottom: 80px;
+    }
+
+}

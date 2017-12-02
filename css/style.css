@@ -20,10 +20,6 @@ nav li {
 
 }
 
-nav li:hover {
-  background-color: #39A0ED;
-}
-
 nav a {
   text-decoration: none;
   display: block;
@@ -86,15 +82,25 @@ nav a {
   text-decoration: none;
 }
 
-.centerContent {
+.flexContainer {
   display: flex;
+}
+
+.centerContentHalf, .centerContentFull {
   background-color: rgba(0,0,0,0.5);
   color: white;
-  height: 50%;
   text-align: center;
 }
 
-.title {
+.centerContentHalf {
+  height: 50%;
+}
+
+.centerContentFull {
+  height: 100%;
+}
+
+.titleBottom {
   margin: auto auto 0 auto;
   font-size: 4vw;
 }
@@ -103,6 +109,14 @@ nav a {
   margin: 0 auto auto auto;
   font-size: 2vw;
 }
+
+.titleTop {
+  font-size: 4vw;
+  width: 100%;
+  height: 10%;
+  display: block;
+}
+
 
 /* --FONTS--
 font-family: 'Lato', sans-serif;

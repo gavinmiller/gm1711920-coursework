@@ -1,0 +1,33 @@
+.whitePage {
+  background-color: rgba(255,255,255,0.8);
+  margin: 25px 25px 0 25px;
+  height: 95%;
+  color: black;
+  border-radius: 5px;
+}
+
+.top {
+  padding-top: .01px;
+}
+
+.textCV {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  border: solid;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+  width: 20%;
+}
+
+.button:hover {
+  background-color: grey;
+}

@@ -8,10 +8,12 @@
   width: 30%;
   height: 40%;
   margin: 10px 10px;
+  padding: 0;
   background-color: #000000;
   background-size: cover;
   float: left;
   position: relative;
+  order: 1;
 }
 
 .landscape {
@@ -23,11 +25,13 @@
 }
 
 .overlayTitle {
-    font-size: 1.25vw;
+    font-size: 25px;
+    order: 10;
 }
 
 .overlayCaption {
-  font-size: 1vw;
+  font-size: 18px;
+  order: 10;
 }
 
 .overlay {
@@ -45,6 +49,7 @@
   -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
+    order: 2;
 }
 
 .overlay:hover {

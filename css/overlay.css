@@ -26,8 +26,8 @@
 }
 
 .overlayTitle {
-    font-size: 25px;
-    order: 10;
+  font-size: 25px;
+  order: 10;
 }
 
 .overlayCaption {
@@ -50,7 +50,7 @@
   -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
-    order: 2;
+  order: 2;
 }
 
 .overlay:hover {
@@ -61,15 +61,15 @@
   .overlay {
     opacity: 1;
   }
-    p {
-      opacity: 1;
-    }
-    p.title{
-      top: 70px;
-    }
-    p.caption{
-      bottom: 80px;
-    }
+  p {
+    opacity: 1;
+  }
+  p.title{
+    top: 70px;
+  }
+  p.caption{
+    bottom: 80px;
+  }
 
 }
 

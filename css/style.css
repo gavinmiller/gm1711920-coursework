@@ -15,11 +15,12 @@ body {
 }
 
 h1 {
-    font-size: 450%;
+  font-size: 450%;
+  text-align: center;
 }
 
-h1, h2, a {
-font-family: 'Lora', serif;
+h1, h2, a, p {
+  font-family: 'Lora', serif;
 }
 
 nav li {
@@ -42,7 +43,7 @@ nav a {
 
 
 .activeLink {
-    background-color: #39A0ED;
+  background-color: #39A0ED;
 }
 
 .sideBar {

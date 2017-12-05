@@ -1,3 +1,4 @@
+/* Container for main content */
 .container {
   padding: 10px;
   border-radius: 5px;
@@ -6,11 +7,21 @@
   margin: 20px;
   color: white;
 }
+/*--------------------------------------------------------------------------------*/
+
+/* Page layout and design */
+.centerContentFull {
+  padding-top: 0.01px;
+  position: absolute;
+  width: inherit;
+}
 
 .item {
   display: block;
 }
+/*--------------------------------------------------------------------------------*/
 
+/* Form layout and design */
 input[type=text], input[type=email], textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
@@ -22,6 +33,7 @@ input[type=text], input[type=email], textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+/* Making the submit button look nicer */
 input[type=submit] {
   color: white;
   padding: 12px 20px;
@@ -33,9 +45,4 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: white;
 }
-
-.centerContentFull {
-  padding-top: 0.01px;
-  position: absolute;
-  width: inherit;
-}
+/*--------------------------------------------------------------------------------*/

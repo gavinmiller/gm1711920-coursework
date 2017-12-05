@@ -1,28 +1,49 @@
+<!-- Declare document type as HTML5+ -->
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<!-- Start html file and declare language as English -->
+<html lang="en">
+<!-- Page info -->
+<head>
+  <!-- Meta tags for browser accessibility -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+
+  <!-- Link to unsemantic CSS style sheet -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.0/unsemantic-grid-responsive-tablet.css" type="text/css">
+
+  <!-- CSS Links for my CSS styles -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/sweep.css" type="text/css">
   <link rel="stylesheet" href="css/contact.css" type="text/css">
-  <title>Gavin Miller</title>
+
+  <!-- Title of the page -->
+  <title>Contact Me</title>
 </head>
+
+<!--------------------------------------------------------------------------------------------------------------------------->
+<!-- Opening the body tag, where the whole page goes -->
 <body>
+
+  <!-- Sidebar div with unsemantic classes for different sizes depending on screen size -->
   <div class="grid-25 tablet-grid-25 mobile-grid-100 sideBar">
 
+    <!-- Replacable image of self for example -->
     <div class="selfImage">
     </div>
+
+    <!-- Navigation menu in sidebar -->
     <nav>
       <ul>
+        <!-- List of menu items, with separate classes for display -->
         <li class="hvr-sweep-to-right"> <a href="index.html">Home</a> </li>
+        <li class="hvr-sweep-to-right"> <a href="about.html">About Me</a> </li>
         <li class="hvr-sweep-to-right"> <a href="projects.html">Projects</a> </li>
         <li class="hvr-sweep-to-right"> <a href="cv.html">CV</a> </li>
         <li class="activeLink hvr-sweep-to-right"> <a href="contactpage.html">Contact Me</a> </li>
       </ul>
     </nav>
 
+    <!-- Social media links -->
     <div class="icons">
       <ul class="socialLinksList">
         <li class="socialLinksLi"><a href="http://www.Facebook.com" class="noDecoration"> <img src="images/icons/Facebook.png" alt="Facebook Link" class="icon"> </a></li>
@@ -34,6 +55,7 @@
     </div>
   </div>
 
+  <!-- Main content using unsemantic css styles for two collumns for bigger screens and one screen for mobile devices -->
   <div class="grid-75 tablet-grid-75 mobile-grid-100 mainContent">
     <div class="centerContentFull">
       <div class="container">
@@ -55,3 +77,5 @@
   </div>
 </body>
 </html>
+
+<!-- Closing tags -->

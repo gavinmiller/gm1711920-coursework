@@ -1,3 +1,4 @@
+/* CSS Style for the navigation menu item effects */
 .hvr-sweep-to-right {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -36,3 +37,4 @@
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+/*--------------------------------------------------------------------------------*/

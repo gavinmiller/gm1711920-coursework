@@ -1,5 +1,8 @@
+/* Import Google Fonts, see bottom of this file for font property names/commands */
 @import url('https://fonts.googleapis.com/css?family=Lato|Lora|Montserrat|Open+Sans|Oxygen|Quicksand|Raleway|Spectral+SC');
+/*--------------------------------------------------------------------------------*/
 
+/* General layout of page */
 *, grid-25, tablet-grid-25, mobile-grid-100, .sideBar {
   margin: 0;
   padding: 0;
@@ -14,15 +17,19 @@ body {
   background-color: rgb(80,80,80);
 }
 
-h1 {
-  font-size: 450%;
-  text-align: center;
+.sideBar {
+  background-color: #383838;
 }
 
-h1, h2, a, p {
-  font-family: 'Lora', serif;
+.mainContent {
+  padding: 0;
+  background-color: lightblue;
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
 }
+/*--------------------------------------------------------------------------------*/
 
+/* Navigation */
 nav li {
   list-style-type: none;
   display: block;
@@ -39,29 +46,11 @@ nav a {
   border-bottom-style: solid;
   border-color: #D0CFCF;
   color: white;
+  font-family: 'Oxygen', sans-serif;
 }
-
 
 .activeLink {
   background-color: #39A0ED;
-}
-
-.sideBar {
-  background-color: #383838;
-}
-
-.mainContent {
-  padding: 0;
-  background-color: lightblue;
-  background: url("../images/background.jpg") no-repeat;
-  background-size: cover;
-}
-
-.selfImage {
-  background-image: url("../images/self.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 35%;
 }
 
 .icons {
@@ -87,11 +76,29 @@ nav a {
   display: inline;
   margin: 0 10px;
 }
+/*--------------------------------------------------------------------------------*/
+
+/* Text properties */
+h1 {
+  font-size: 450%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h2, h3, a, p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.colourWhite {
+  color: white;
+}
 
 .noDecoration {
   text-decoration: none;
 }
+/*--------------------------------------------------------------------------------*/
 
+/* Display/layout properties */
 .flexContainer {
   display: flex;
 }
@@ -124,11 +131,16 @@ nav a {
   height: 10%;
   display: block;
 }
+/*--------------------------------------------------------------------------------*/
 
-.link {
-  text-decoration: none;
-  color: darkgrey;
+/* Self portrait/sidebar picture*/
+.selfImage {
+  background-image: url("../images/self.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 35%;
 }
+/*--------------------------------------------------------------------------------*/
 
 /* --FONTS--
 font-family: 'Lato', sans-serif;

@@ -1,9 +1,12 @@
+/* Container for main content */
 .wrapper {
   display: block;
   margin: 10% 10% 0 10%;
   height: 70%;
 }
+/*--------------------------------------------------------------------------------*/
 
+/* Thumbnail properties for each project */
 .thumbnail {
   min-width: 350px;
   width: 30%;
@@ -17,6 +20,24 @@
   order: 1;
 }
 
+.thumbnail:hover {
+  .overlay {
+    opacity: 1;
+  }
+  p {
+    opacity: 1;
+  }
+  p.title{
+    top: 70px;
+  }
+  p.caption{
+    bottom: 80px;
+  }
+
+}
+/*--------------------------------------------------------------------------------*/
+
+/* Different pictures for each thumbnail */
 .landscape {
   background-image: url("../images/thumbnails/stars-landscape.jpg");
 }
@@ -24,17 +45,9 @@
 .website {
   background-image: url("../images/thumbnails/website.jpeg");
 }
+/*--------------------------------------------------------------------------------*/
 
-.overlayTitle {
-  font-size: 25px;
-  order: 10;
-}
-
-.overlayCaption {
-  font-size: 18px;
-  order: 10;
-}
-
+/* Overlay properties for when you click on / hover over one of the project tiles */
 .overlay {
   background-color: rgba(66,66,66,0.6);
   position: relative;
@@ -53,26 +66,23 @@
   order: 2;
 }
 
+.overlayTitle {
+  font-size: 25px;
+  order: 10;
+}
+
+.overlayCaption {
+  font-size: 18px;
+  order: 10;
+}
+
 .overlay:hover {
   opacity: 1;
 }
+/*--------------------------------------------------------------------------------*/
 
-.thumbnail:hover {
-  .overlay {
-    opacity: 1;
-  }
-  p {
-    opacity: 1;
-  }
-  p.title{
-    top: 70px;
-  }
-  p.caption{
-    bottom: 80px;
-  }
-
-}
-
+/* Layout */
 .mobile-grid-100, .mobile-grid-80 {
   padding: 0;
 }
+/*--------------------------------------------------------------------------------*/

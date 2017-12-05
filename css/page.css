@@ -1,19 +1,28 @@
+/* White page-like background to make text easier to read */
 .whitePage {
   background-color: rgba(255,255,255,0.8);
   height: auto;
   color: black;
 }
+/*--------------------------------------------------------------------------------*/
 
+/* General design and layout of page */
 .top {
   padding-top: .01px;
 }
 
-.textBlock {
-  text-align: left;
-  margin-left: 10px;
-  margin-top: 5px;
+.marginOnly {
+  margin: 10px;
 }
 
+.centerContentFull {
+  padding-top: 0.01px;
+  position: absolute;
+  width: inherit;
+}
+/*--------------------------------------------------------------------------------*/
+
+/* Button properties to turn an element into a button */
 .button {
   text-decoration: none;
   color: black;
@@ -29,13 +38,9 @@
 .button:hover {
   background-color: grey;
 }
+/*--------------------------------------------------------------------------------*/
 
-.centerContentFull {
-  padding-top: 0.01px;
-  position: absolute;
-  width: inherit;
-}
-
+/* Image box properties */
 .image {
   width: 250px;
   height: 250px;
@@ -45,3 +50,20 @@
   padding: 20px;
   text-align: center;
 }
+/*--------------------------------------------------------------------------------*/
+
+/* Basic text block class */
+.textBlock {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/*--------------------------------------------------------------------------------*/
+
+/* Class for span element to align the text to the right side */
+.alignRight {
+  text-align: right;
+  float: right;
+  margin-right: 10px;
+}
+/*--------------------------------------------------------------------------------*/

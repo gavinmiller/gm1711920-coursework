@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/page.css">
 
   <!-- Title of the page -->
-  <title>Example Project</title>
+  <title>Gavin Miller</title>
 
 </head>
 
@@ -37,10 +37,8 @@
       <ul>
         <!-- List of menu items, with separate classes for display -->
         <li class="hvr-sweep-to-right"> <a href="index.html">Home</a> </li>
-        <li class="hvr-sweep-to-right"> <a href="about.html">About Me</a> </li>
+        <li class="activeLink hvr-sweep-to-right"> <a href="about.html">About Me</a> </li>
         <li class="hvr-sweep-to-right"> <a href="projects.html">Projects</a> </li>
-        <li class="activeLink hvr-sweep-to-right"> <a href="#">- Project 1</a> </li>
-        <li class="hvr-sweep-to-right"> <a href="exampleproject2.html">- Project 2</a> </li>
         <li class="hvr-sweep-to-right"> <a href="cv.html">CV</a> </li>
         <li class="hvr-sweep-to-right"> <a href="contactpage.html">Contact Me</a> </li>
       </ul>
@@ -60,21 +58,34 @@
 
   <!-- Main content using unsemantic css styles for two collumns for bigger screens and one screen for mobile devices -->
   <div class="grid-75 tablet-grid-75 mobile-grid-100 mainContent">
-    <div class="whitePage">
-      <h1>Project 1</h1>
-    </div>
-    <div class="whitePage">
-      <p class="textBlock">Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> In faucibus aliquam diam, eu vulputate purus efficitur id. Nam id quam iaculis, congue orci ac, commodo est. Vivamus in feugiat enim. Sed ullamcorper enim nisi, a placerat arcu aliquet sed. Nullam elementum mi eu imperdiet venenatis. Fusce et est varius ex venenatis auctor. Cras et condimentum metus, a faucibus tellus. Proin eu maximus dolor, at placerat orci. Quisque non lorem purus. Morbi efficitur enim id orci volutpat aliquam. Vestibulum volutpat euismod lorem et mollis. Nulla maximus ultricies ante, <strong>ut aliquet dolor mollis sed</strong>. Praesent non mi viverra, ultrices massa non, pellentesque nulla.</p>
-      <p class="textBlock"><i>Lorem ipsum dolor sit amet</i>, consectetur adipiscing elit. In faucibus aliquam diam, eu vulputate purus efficitur id. Nam id quam iaculis, congue orci ac, commodo est. Vivamus in feugiat enim. Sed ullamcorper enim nisi, a placerat arcu aliquet sed. Nullam elementum mi eu imperdiet venenatis. Fusce et est varius ex venenatis auctor. Cras et condimentum metus, a faucibus tellus. Proin eu maximus dolor, at placerat orci. Quisque non lorem purus. Morbi efficitur enim id orci volutpat aliquam. Vestibulum volutpat euismod lorem et mollis. <em>Nulla maximus ultricies ante,</em> ut aliquet dolor mollis sed. Praesent non mi viverra, ultrices massa non, pellentesque nulla.</p>
 
-      <div class="grid-50 mobile-grid-100 imageBox">
-        <img src="images/thumbnails/security.jpeg" alt="Cyber Security" class="image">
+    <!-- Darken the background to make text stand out with these classes and position text -->
+    <div class="centerContentFull">
+      <div class="top whitePage">
+        <h1>About Me</h1>
       </div>
-      <div class="grid-50 mobile-grid-100 imageBox">
-        <img src="images/thumbnails/website.jpeg" alt="HTML CSS" class="image">
-      </div>
-    </div>
 
+      <div class="whitePage marginOnly">
+        <p class="textBlock">Hello, I'm a computer science student at Robert Gordon University, and lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit et sem commodo dictum. Fusce est lorem, sagittis vel consectetur id, posuere sed purus. Morbi porttitor aliquam turpis vel scelerisque. Duis in dapibus nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque faucibus scelerisque pharetra. Proin sagittis blandit placerat. Fusce laoreet euismod ipsum vitae viverra. Donec molestie mauris risus, sed facilisis felis viverra nec. Sed interdum tellus quis orci fringilla hendrerit sed ut felis. Nunc pretium purus tellus, quis tincidunt diam venenatis sit amet. Aenean eget est et eros rhoncus bibendum. In et risus tincidunt, commodo leo ut, rhoncus leo. Quisque id dui condimentum, placerat libero quis, gravida quam. Nam et viverra sem, sit amet faucibus diam.</p>
+      </div>
+
+      <div class="whitePage marginOnly">
+        <h3>Languages:</h3>
+        <p class="textBlock">C# <span class="alignRight">Fluent</span> </p>
+        <p class="textBlock">JavaScript <span class="alignRight">Fluent</span> </p>
+        <p class="textBlock">HTML <span class="alignRight">Fluent</span> </p>
+        <p class="textBlock">CSS <span class="alignRight">Fluent</span> </p>
+      </div>
+
+      <div class="whitePage marginOnly">
+        <h3>Hobbies:</h3>
+        <p class="textBlock">Random activity 1</p>
+        <p class="textBlock">Random activity 2</p>
+        <p class="textBlock">Random activity 3</p>
+        <p class="textBlock">Random activity 4</p>
+      </div>
+
+    </div>
   </div>
 </body>
 </html>

@@ -11,6 +11,7 @@ html, body, .fullPage, .sideBar, .mainContent {
 
 body {
   font-size: 16px;
+  background-color: rgb(80,80,80);
 }
 
 h1 {

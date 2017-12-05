@@ -4,6 +4,7 @@
   background-color: rgba(220, 220, 220, 0.6);
   padding: 20px;
   margin: 20px;
+  color: white;
 }
 
 .item {
@@ -35,4 +36,6 @@ input[type=submit]:hover {
 
 .centerContentFull {
   padding-top: 0.01px;
+  position: absolute;
+  width: inherit;
 }

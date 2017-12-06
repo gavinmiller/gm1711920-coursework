@@ -8,7 +8,7 @@
 
 /* Thumbnail properties for each project */
 .thumbnail {
-  min-width: 350px;
+  min-width: 250px;
   width: 30%;
   height: 40%;
   margin: 10px 10px;
